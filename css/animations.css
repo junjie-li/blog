@@ -1,7 +1,6 @@
 /* Animations */
 
-.logo,
-.about,
+.bio,
 .headlinks li{
   opacity: 0;
   -webkit-transform: translateY(-20px);
@@ -11,17 +10,17 @@
      -moz-animation: fadein .6s .5s 1 forwards ease-in-out;
           animation: fadein .6s .5s 1 forwards ease-in-out;
 }
-  .about{
+  .headlinks li.linkedin{
     -webkit-animation-delay: .8s;
        -moz-animation-delay: .8s;
             animation-delay: .8s;
   }
-  .headlinks li.twitter{
+  .headlinks li.dribbble{
     -webkit-animation-delay: 1.1s;
        -moz-animation-delay: 1.1s;
             animation-delay: 1.1s;
   }
-  .headlinks li.dribbble{
+  .headlinks li.github{
     -webkit-animation-delay: 1.3s;
        -moz-animation-delay: 1.3s;
             animation-delay: 1.3s;
@@ -33,7 +32,7 @@
   }
   100%{
     -webkit-transform: translateY(0);
-    opacity: .8;
+    opacity: 1;
   }
 }
 @-moz-keyframes fadein{
@@ -43,6 +42,6 @@
   }
   100%{
     -moz-transform: translateY(0);
-    opacity: .8;
+    opacity: 1;
   }
 }
