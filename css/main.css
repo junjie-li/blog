@@ -33,6 +33,15 @@ a{
      -moz-transition: all .25s;
           transition: all .25s;
 }
+
+#screenshot {
+  max-height: 80px;
+  max-width: 80px;
+  position:absolute;
+  /*border:1px solid #ccc;*/
+  display:none;
+}
+
 article a,
 .bio a{
   border-bottom: 1px solid rgba(0,0,0,.5);
@@ -340,6 +349,7 @@ article .content .gist .gist-meta{
       margin: 0 0 10px 160px;
       font-size: 1.5em;
       padding-top: 15px;
+      font-family: "brandon-grotesque",sans-serif;
       font-weight: 200;
     }
     .bio p{
@@ -373,6 +383,7 @@ article .content .gist .gist-meta{
          -moz-border-radius: 50%;
               border-radius: 50%;
     }
+
 
 
 /* Footer
