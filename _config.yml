@@ -3,4 +3,3 @@ markdown: redcarpet
 pygments: true
 paginate: 5
 url: "http://junjie-li.github.io/blog"
-permalink: blog/:title
